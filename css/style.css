@@ -1663,7 +1663,7 @@ a {
     content: '';
     width: 6%;
     height: 0;
-    background-image: url('/img/mouse.png');
+    background-image: url('img/mouse.png');
     background-size: cover;
     background-position: center;
     position: absolute;
