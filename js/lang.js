@@ -28,7 +28,7 @@ function changeLanguage(lang) {
     else if (pathname.includes('earth') || pathname === '/') page = 'earth';
 
     // 2. Загружаем JSON с переводами
-    fetch(`/locales/${lang}.json`)
+    fetch(`locales/${lang}.json`)
         .then(res => res.json())
         .then(data => {
             const translations = data[page];
