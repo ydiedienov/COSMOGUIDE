@@ -1668,7 +1668,7 @@ a {
     background-position: center;
     position: absolute;
     top: 44.5%;
-    left: 16%;
+    left: 17.5%;
     transform: scale(0.6);
     transition: all var(--transition-duration);
 }
